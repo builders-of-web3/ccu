@@ -1,9 +1,22 @@
 import React from 'react'
-import Nav from '../components/Nav'
+import { Nav ,Section1, Section2, Section3, Section4, Section5 } from '../components'
 
 const Home = () => {
   return (
-    <Nav/>
+    <div className='bg-[#210CAE]'>
+
+      <Nav />
+      <div className='mx-[10vw] flex flex-col justify-between '>
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+      </div>
+
+
+    </div>
+
   )
 }
 
