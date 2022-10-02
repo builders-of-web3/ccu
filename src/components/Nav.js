@@ -13,7 +13,7 @@ const Nav = () => {
     ];
     let [open,setOpen]=useState(false);
   return (
-    <nav className='shadow-md w-full top-0 left-0'>
+    <nav className='shadow-md w-full fixed z-20 top-0 left-0'>
       <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
           <span className='text-3xl text-indigo-600 mr-1 pt-2'>

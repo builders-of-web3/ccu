@@ -41,7 +41,7 @@ const Section2 = () => {
 
 
     return (
-        <div className='text-white font-Inter flex items-center justify-evenly my-[11vh]'>
+        <div className='text-white font-Inter flex items-center justify-between my-[11vh]'>
 
             <div>
                 <div className='font-Inter text-white text-7xl  w-[45vw] font-black italic drop-shadow-lg shadow-black'>

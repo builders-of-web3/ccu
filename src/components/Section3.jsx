@@ -11,7 +11,7 @@ const Section3 = () => {
     const [contentNum, setContentNum] = useState(0);
 
     return (
-        <div className='text-white font-Inter flex justify-evenly my-[11vh]'>
+        <div className='text-white font-Inter flex justify-between my-[11vh]'>
 
             <div>
                 <div className='font-Inter text-white text-7xl font-black italic drop-shadow-lg shadow-black'>

@@ -1,12 +1,26 @@
 import React from 'react'
-import { Nav ,Section1, Section2, Section3, Section4, Section5, Section6, Section7, Section8, Section9 } from '../components'
+import {
+    Footer,
+    Hero,
+    Nav,
+    Section1,
+    Section2,
+    Section3,
+    Section4,
+    Section5,
+    Section6,
+    Section7,
+    Section8,
+    Section9
+} from '../components'
 
 const Home = () => {
   return (
-    <div className='bg-[#210CAE]'>
+    <div className='bg-[#210CAE] text-white font-Inter'>
 
       <Nav />
-      <div className='mx-[10vw] flex flex-col justify-between '>
+      <Hero />
+      <div className='mx-10 w-[80vw] mx-auto flex flex-col justify-between '>
         <Section1 />
         <Section2 />
         <Section3 />
@@ -17,7 +31,7 @@ const Home = () => {
         <Section8 />
         <Section9 />
       </div>
-
+      <Footer />
 
     </div>
 
