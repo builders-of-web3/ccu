@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { BuilderOfWeb3Logo } from '../assets';
 // import logo192 from './public/logo192.png';
 //import Button from './Button';
 
@@ -17,7 +18,7 @@ const Nav = () => {
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
           <span className='text-3xl text-indigo-600 mr-1 pt-2'>
           </span>
-          <img src="/logo192.png" alt='img'/>
+          <img className='w-[50px]' src={BuilderOfWeb3Logo} alt='logo'/>
         </div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>

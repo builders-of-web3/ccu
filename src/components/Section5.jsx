@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrowblack } from '../assets'
 
 const Section5 = () => {
     return (
@@ -14,10 +15,26 @@ const Section5 = () => {
             </div>
 
             <div className='flex justify-between pt-10'>
-                <div className='bg-gradient-to-br from-white to-[#B9B3E6]  w-[40rem] h-[23rem]  rounded-2xl'>
+                <div className='bg-gradient-to-br from-white to-[#B9B3E6]  w-[40rem] h-[23rem]  rounded-2xl p-10'>
+                    <div className='text-black flex font-bold text-3xl justify-between'>
+                        Speaker Application are now closed
+                        <img className='w-7 mx-6' src={arrowblack} alt="arrowblack" />
+                    </div>
+
+                    <div className='text-black mt-[10rem] text-xl'>
+                        Speakers will be announced soon ...
+                    </div>
 
                 </div>
-                <div className='bg-gradient-to-br from-white to-[#B9B3E6]  w-[40rem] h-[23rem]  rounded-2xl'>
+                <div className='bg-gradient-to-br from-white to-[#B9B3E6]  w-[40rem] h-[23rem]  rounded-2xl p-10'>
+                    <div className='text-black flex font-bold text-3xl justify-between'>
+                        Become a sponsor
+                        <img className='w-7 mx-6' src={arrowblack} alt="arrowblack" />
+                    </div>
+
+                    <div className='text-black mt-[11rem] text-xl'>
+                        Grow your reach by supporting an event that had seen a footfall of over 1500 people in 2021
+                    </div>
 
                 </div>
             </div>
