@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/ccu/static/css/main.e639b41d.css",
-    "main.js": "/ccu/static/js/main.3971c0ec.js",
+    "main.css": "/ccu/static/css/main.59f89dc6.css",
+    "main.js": "/ccu/static/js/main.ca42ea3b.js",
+    "static/media/builder-of-web3-logo.svg": "/ccu/static/media/builder-of-web3-logo.a7edd2eaac3e40fcb9db46e25ab72c7a.svg",
+    "static/media/arrow-black.svg": "/ccu/static/media/arrow-black.b81d80be277707c813609d270ae13f6e.svg",
     "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.c2ca1ca2f0c031a74cadb012cd9d7218.svg",
     "index.html": "/ccu/index.html",
-    "main.e639b41d.css.map": "/ccu/static/css/main.e639b41d.css.map",
-    "main.3971c0ec.js.map": "/ccu/static/js/main.3971c0ec.js.map"
+    "main.59f89dc6.css.map": "/ccu/static/css/main.59f89dc6.css.map",
+    "main.ca42ea3b.js.map": "/ccu/static/js/main.ca42ea3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e639b41d.css",
-    "static/js/main.3971c0ec.js"
+    "static/css/main.59f89dc6.css",
+    "static/js/main.ca42ea3b.js"
   ]
 }
