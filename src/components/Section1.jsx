@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <div className='text-white font-Inter flex items-center justify-between my-[11vh]'>
+    <div className='text-white font-Inter space-x-[10vw] flex items-center justify-between my-[11vh]'>
 
       <div>
         <div className='font-Inter text-white text-7xl font-black italic drop-shadow-lg shadow-black'>

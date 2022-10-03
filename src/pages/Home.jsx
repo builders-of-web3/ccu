@@ -20,7 +20,7 @@ const Home = () => {
 
       <Nav />
       <Hero />
-      <div className='mx-10 w-[80vw] mx-auto flex flex-col justify-between '>
+      <div className='w-[80vw] mx-auto flex flex-col justify-around items-center '>
         <Section1 />
         <Section2 />
         <Section3 />

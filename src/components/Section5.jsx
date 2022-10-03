@@ -14,7 +14,7 @@ const Section5 = () => {
                 </div>
             </div>
 
-            <div className='flex justify-between pt-10'>
+            <div className='flex justify-between space-x-[10vw] pt-10'>
                 <div className='bg-gradient-to-br from-white to-[#B9B3E6]  w-[40rem] h-[23rem]  rounded-2xl p-10'>
                     <div className='text-black flex font-bold text-3xl justify-between'>
                         Speaker Application are now closed
