@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ccu/static/css/main.d0d38e5f.css",
-    "main.js": "/ccu/static/js/main.987c2f09.js",
+    "main.js": "/ccu/static/js/main.868f8e90.js",
     "static/media/RajdipBhattacharya.png": "/ccu/static/media/RajdipBhattacharya.f2da3c6667e30ffe0fa9.png",
     "static/media/ManishKumarBarnwal.png": "/ccu/static/media/ManishKumarBarnwal.7cf0667e99de76f82320.png",
     "static/media/AyanMajumdar.jpg": "/ccu/static/media/AyanMajumdar.3b21eb76105fc2fce879.jpg",
@@ -14,19 +14,24 @@
     "static/media/HimanshuRai.jpeg": "/ccu/static/media/HimanshuRai.16f1a587391b902af870.jpeg",
     "static/media/builder-of-web3-logo.svg": "/ccu/static/media/builder-of-web3-logo.a7edd2eaac3e40fcb9db46e25ab72c7a.svg",
     "static/media/AjoyDas.jpeg": "/ccu/static/media/AjoyDas.fe33d523f3bb687e117d.jpeg",
+    "static/media/bitCulprit.png": "/ccu/static/media/bitCulprit.baf9031aa8d69d529a31.png",
+    "static/media/caldera.png": "/ccu/static/media/caldera.1130409fd8f648ace4cf.png",
     "static/media/BOW3-full-logo-black.svg": "/ccu/static/media/BOW3-full-logo-black.617ed3690f9980fcea6290ca8241ba0a.svg",
     "static/media/BOW3-full-logo-white.svg": "/ccu/static/media/BOW3-full-logo-white.e1f54c965707875f0d6dcf20b7f962e3.svg",
+    "static/media/BOW3 black logo-01-01.png": "/ccu/static/media/BOW3 black logo-01-01.aa13c34e4c111e74a71d.png",
     "static/media/Varsha.jpg": "/ccu/static/media/Varsha.193e4a51a5e801a82788.jpg",
+    "static/media/huladek.png": "/ccu/static/media/huladek.ccbac61d0d48a60291e5.png",
+    "static/media/HYPD-LOGO-BLACK.png": "/ccu/static/media/HYPD-LOGO-BLACK.915e3877ab2e6c1ef704.png",
     "static/media/twitter-black.svg": "/ccu/static/media/twitter-black.533240cbfb96bc32e67eca63de7f2aa2.svg",
     "static/media/hero-bg.svg": "/ccu/static/media/hero-bg.c0930130bd150d1f1fc0cff00904efa4.svg",
     "static/media/arrow-black.svg": "/ccu/static/media/arrow-black.b81d80be277707c813609d270ae13f6e.svg",
     "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.c2ca1ca2f0c031a74cadb012cd9d7218.svg",
     "index.html": "/ccu/index.html",
     "main.d0d38e5f.css.map": "/ccu/static/css/main.d0d38e5f.css.map",
-    "main.987c2f09.js.map": "/ccu/static/js/main.987c2f09.js.map"
+    "main.868f8e90.js.map": "/ccu/static/js/main.868f8e90.js.map"
   },
   "entrypoints": [
     "static/css/main.d0d38e5f.css",
-    "static/js/main.987c2f09.js"
+    "static/js/main.868f8e90.js"
   ]
 }
