@@ -16,6 +16,12 @@ import harshitAggarwal from "./HarshitAggarwal.JPG";
 import ayanMajumdar from "./AyanMajumdar.jpg";
 import ajoyDas from "./AjoyDas.jpeg";
 
+// contributors
+import abhranilMondal from "./AbhranilMondal.jpg";
+import rajdipBhattacharya from "./RajdipBhattacharya.png";
+import sawanBhattacahrya from "./SawanBhattacahrya.png";
+import himanshuRai from "./HimanshuRai.jpeg";
+
 export {
   arrowWhite,
   arrowblack,
@@ -32,4 +38,8 @@ export {
   harshitAggarwal,
   ayanMajumdar,
   ajoyDas,
+  abhranilMondal,
+  rajdipBhattacharya,
+  sawanBhattacahrya,
+  himanshuRai,
 };

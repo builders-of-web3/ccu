@@ -36,8 +36,8 @@ const Section7 = () => {
             name: "Nadeem Ahmad",
             image: nadeemAhmad
         }
-        
-        
+
+
     ]
 
     return (
@@ -48,12 +48,6 @@ const Section7 = () => {
             </div>
 
             <div className='grid grid-cols-4 gap-6 m-10'>
-                {/* <div className='flex flex-col items-center'>
-                    <div className='bg-white w-[10rem] h-[10rem] rounded-full'></div>
-                    <div className='font-semibold text-2xl m-4'>
-                        Ayan Majumdar
-                    </div>
-                </div> */}
 
                 {team.map((member) => (
                     <div className='flex flex-col items-center'>
