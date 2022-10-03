@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccu/static/css/main.5d4785a7.css",
-    "main.js": "/ccu/static/js/main.8bdc075f.js",
+    "main.css": "/ccu/static/css/main.94e85cdd.css",
+    "main.js": "/ccu/static/js/main.0fbecb61.js",
     "static/media/builder-of-web3-logo.svg": "/ccu/static/media/builder-of-web3-logo.a7edd2eaac3e40fcb9db46e25ab72c7a.svg",
     "static/media/BOW3-full-logo-black.svg": "/ccu/static/media/BOW3-full-logo-black.617ed3690f9980fcea6290ca8241ba0a.svg",
     "static/media/BOW3-full-logo-white.svg": "/ccu/static/media/BOW3-full-logo-white.e1f54c965707875f0d6dcf20b7f962e3.svg",
@@ -10,11 +10,11 @@
     "static/media/arrow-black.svg": "/ccu/static/media/arrow-black.b81d80be277707c813609d270ae13f6e.svg",
     "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.c2ca1ca2f0c031a74cadb012cd9d7218.svg",
     "index.html": "/ccu/index.html",
-    "main.5d4785a7.css.map": "/ccu/static/css/main.5d4785a7.css.map",
-    "main.8bdc075f.js.map": "/ccu/static/js/main.8bdc075f.js.map"
+    "main.94e85cdd.css.map": "/ccu/static/css/main.94e85cdd.css.map",
+    "main.0fbecb61.js.map": "/ccu/static/js/main.0fbecb61.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d4785a7.css",
-    "static/js/main.8bdc075f.js"
+    "static/css/main.94e85cdd.css",
+    "static/js/main.0fbecb61.js"
   ]
 }
