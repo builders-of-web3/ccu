@@ -1,6 +1,17 @@
 import React from 'react'
 
+import {caldera, huladek, bitCulprit, BOW3, HYPD} from '../assets/sponsor'
+
 const Section6 = () => {
+
+    const sponsors = [
+        caldera,
+        huladek,
+        bitCulprit,
+        BOW3,
+        HYPD,
+    ]
+
     return (
         <div className='text-white font-Inter my-[15vh]'>
 
@@ -9,30 +20,14 @@ const Section6 = () => {
             </div>
 
             <div className='grid grid-cols-6 gap-6 m-10'>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
-                <div className='bg-white w-[10rem] h-[10rem] rounded-lg'></div>
+                {
+                    sponsors.map((sponsor) => (
+                        <div className='bg-white w-[10rem] h-[10rem] rounded-lg'>
+                            <img src={sponsor} alt="sponsor" className='w-full h-full rounded-lg' />
+                        </div>
+                    ))
+                }
+                
             </div>
 
         </div>

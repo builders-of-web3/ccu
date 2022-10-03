@@ -6,35 +6,43 @@ const Section7 = () => {
     const team = [
         {
             name: 'Ayan Majumdar',
-            image: ayanMajumdar
+            image: ayanMajumdar,
+            linkdin: 'https://www.linkedin.com/in/imayanmajumdar/',
         },
         {
             name: "Ajoy Das",
-            image: ajoyDas
+            image: ajoyDas,
+            linkdin: 'https://www.linkedin.com/in/ajoy-das-5542b5217/'
         },
         {
             name: "Rakesh Samui",
-            image: rakeshSamui
+            image: rakeshSamui,
+            linkdin: 'https://www.linkedin.com/in/rakesh-samui-69aa65192/'
         },
         {
             name: "Harshit Aggarwal",
-            image: harshitAggarwal
+            image: harshitAggarwal,
+            linkdin: 'https://www.linkedin.com/in/harshit-aggarwal-a6705b1a2'
         },
         {
             name: "Varsha Gupta",
-            image: varsha
+            image: varsha,
+            linkdin: 'https://www.linkedin.com/in/varsha-gupta-9022621b1/'
         },
         {
             name: "Manish Kumar Barnwal",
-            image: manishKumarBarnwal
+            image: manishKumarBarnwal,
+            linkdin: 'https://www.linkedin.com/in/imanishbarnwal/'
         },
         {
             name: "Samantak Saha",
-            image: samantakSaha
+            image: samantakSaha,
+            linkdin: 'https://www.linkedin.com/in/samantaksaha/'
         },
         {
             name: "Nadeem Ahmad",
-            image: nadeemAhmad
+            image: nadeemAhmad,
+            linkdin: 'https://www.linkedin.com/in/nadeem-ahmad-624b86168/'
         }
 
 
@@ -50,14 +58,17 @@ const Section7 = () => {
             <div className='grid grid-cols-4 gap-6 m-10'>
 
                 {team.map((member) => (
-                    <div className='flex flex-col items-center'>
-                        <div className='bg-white hover:shadow-lg hover:shadow-[#1a1a3a] bg-cover w-[10rem] h-[10rem] rounded-full'>
-                            <img src={member.image} alt={member.name} className='w-full h-full rounded-full' />
+                    <a href={member.linkdin} target="_blank" rel="noopener noreferrer">
+                        <div className='flex flex-col items-center'>
+                            <div className='bg-white hover:shadow-lg hover:shadow-[#1a1a3a] bg-cover w-[10rem] h-[10rem] rounded-full'>
+                                <img src={member.image} alt={member.name} className='w-full h-full rounded-full' />
+                            </div>
+                            <div className='font-semibold text-2xl m-4'>
+                                {member.name}
+                            </div>
                         </div>
-                        <div className='font-semibold text-2xl m-4'>
-                            {member.name}
-                        </div>
-                    </div>
+                    </a>
+
                 ))}
 
             </div>
