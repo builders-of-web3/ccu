@@ -1,17 +1,23 @@
 import React from 'react';
-import {bow3FullLogoBlack, twitterBlack} from "../assets";
+import { bow3FullLogoBlack, twitterBlack } from "../assets";
 
 const Footer = () => {
     return (
         <div className={'w-screen py-16 bg-white text-black'}>
             <div className={'w-[80vw] mx-auto grid grid-cols-5 gap-20'}>
-                <div className={'flex flex-col justify-between'}>
-                    <img src={bow3FullLogoBlack} alt={''} className={'w-[200px]'}/>
-                    <div className={'flex gap-3'}>
-                        <img src={twitterBlack} alt={''}/>
-                        <div className={'text-xl font-semibold'}>#BUIDLbyBow3</div>
+
+
+                <a href="https://twitter.com/intent/tweet?hashtags=buidlersofweb3%2C&original_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Ehashtag%7Ctwgr%5Ebuidlersofweb3&text=Hey%20Guys%20%F0%9F%91%8B%2C%20I%20am%20gonna%20join%20%40buidlersofweb3%20on%20October%2029-30%20at%20Tal%20Kutir%2C%20Eco%20Space%2C%20Kolkata.%20Join%20me%20in%20%23BUIDLbyBow3">
+                    <div className={'flex flex-col justify-between'}>
+                        <img src={bow3FullLogoBlack} alt={''} className={'w-[200px]'} />
+                        <div className={'flex gap-3 items-center'}>
+                            <img src={twitterBlack} alt={''} />
+                            <div className={'text-xl font-semibold'}>#BUIDLbyBow3</div>
+                        </div>
                     </div>
-                </div>
+                </a>
+
+                
                 <div className={'flex flex-col gap-5 text-xl'}>
                     <a href={'#'}>Agenda</a>
                     <a href={'#'}>Speakers</a>

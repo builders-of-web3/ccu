@@ -1,16 +1,43 @@
 import React from 'react'
+import { ajoyDas, ayanMajumdar, harshitAggarwal, manishKumarBarnwal, nadeemAhmad, rakeshSamui, samantakSaha, varsha } from '../assets'
 
 const Section7 = () => {
 
     const team = [
-        "Ayan Majumdar",
-        "Ajoy Das",
-        "Rakesh Samui",
-        "Harshit Aggarwal",
-        "Varsha Gupta",
-        "Manish Kumar Barnwal",
-        "Samantak Saha",
-        "Nadeem Ahmad",
+        {
+            name: 'Ayan Majumdar',
+            image: ayanMajumdar
+        },
+        {
+            name: "Ajoy Das",
+            image: ajoyDas
+        },
+        {
+            name: "Rakesh Samui",
+            image: rakeshSamui
+        },
+        {
+            name: "Harshit Aggarwal",
+            image: harshitAggarwal
+        },
+        {
+            name: "Varsha Gupta",
+            image: varsha
+        },
+        {
+            name: "Manish Kumar Barnwal",
+            image: manishKumarBarnwal
+        },
+        {
+            name: "Samantak Saha",
+            image: samantakSaha
+        },
+        {
+            name: "Nadeem Ahmad",
+            image: nadeemAhmad
+        }
+        
+        
     ]
 
     return (
@@ -30,9 +57,11 @@ const Section7 = () => {
 
                 {team.map((member) => (
                     <div className='flex flex-col items-center'>
-                        <div className='bg-white w-[10rem] h-[10rem] rounded-full'></div>
+                        <div className='bg-white hover:shadow-lg hover:shadow-[#1a1a3a] bg-cover w-[10rem] h-[10rem] rounded-full'>
+                            <img src={member.image} alt={member.name} className='w-full h-full rounded-full' />
+                        </div>
                         <div className='font-semibold text-2xl m-4'>
-                            {member}
+                            {member.name}
                         </div>
                     </div>
                 ))}
