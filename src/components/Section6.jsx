@@ -1,15 +1,51 @@
 import React from 'react'
 
-import {caldera, huladek, bitCulprit, BOW3, HYPD} from '../assets/sponsor'
+import {  caldera,
+  huladek,
+  bitCulprit,
+  HYPD,
+  auli,
+  calcuttaCacophony,
+  Folk_Logo,
+  innovatorsCoffee,
+  Mastermentors,
+  movingkolkata,
+  neemans,
+  new1,
+  nkda_logo,
+  siliconValley,
+  Taj,
+  Untitled,
+  velocoty1,
+  ventureCatalysts,
+  WhatsApp,
+  wings,
+  yest,} from '../assets/sponsor'
 
 const Section6 = () => {
 
     const sponsors = [
-        caldera,
-        huladek,
-        bitCulprit,
-        BOW3,
-        HYPD,
+      caldera,
+      huladek,
+      bitCulprit,
+      HYPD,
+      auli,
+      calcuttaCacophony,
+      Folk_Logo,
+      innovatorsCoffee,
+      Mastermentors,
+      movingkolkata,
+      neemans,
+      new1,
+      nkda_logo,
+      siliconValley,
+      Taj,
+      Untitled,
+      velocoty1,
+      ventureCatalysts,
+      WhatsApp,
+      wings,
+      yest,
     ]
 
     return (
@@ -27,7 +63,7 @@ const Section6 = () => {
                         </div>
                     ))
                 }
-                
+
             </div>
 
         </div>
