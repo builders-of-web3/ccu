@@ -2,14 +2,14 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <div className='text-white font-Inter space-x-[10vw] flex items-center justify-between my-[11vh]'>
+    <div className='text-white font-Inter flex md:flex-row flex-col items-start md:items-center justify-between my-[11vh] gap-16'>
 
-      <div>
-        <div className='font-Inter text-white text-7xl font-black italic drop-shadow-lg shadow-black'>
+      <div className={"md:w-[50%]"}>
+        <div className='font-Inter text-white text-6xl md:text-7xl font-black italic drop-shadow-lg shadow-black'>
           More <br /> than just a <br /> festival
         </div>
 
-        <div className='text-2xl font-medium mt-6'>
+        <div className='text-xl md:text-2xl font-medium mt-6'>
           At CCU festival (BUIDL) you won't just <br /> passively listen to panels. You'll….
         </div>
       </div>

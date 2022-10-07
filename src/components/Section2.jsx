@@ -41,14 +41,12 @@ const Section2 = () => {
 
 
     return (
-        <div className='text-white font-Inter flex items-center justify-between my-[11vh]'>
+        <div className='text-white font-Inter flex md:flex-row flex-col my-[11vh] text-left md:h-[300px] gap-16'>
 
-            <div>
-                <div className='font-Inter text-white text-7xl  w-[45vw] font-black italic drop-shadow-lg shadow-black'>
-                    From {newName[1]} to <br /> {newName[2]}
-                </div>
+            <div className='text-6xl md:text-7xl font-black italic drop-shadow-lg shadow-black md:w-[50%] place-self-start'>
+                From <span className='text-[#FFC700]'> {Object.values(newName)[0]} </span> to <span className='text-[#FFC700]'> {Object.values(newName)[1]} </span>
             </div>
-            <div className='text-2xl box-content w-[22vw] font-medium mt-6 pt-[25vh]'>
+            <div className='text-2xl box-content md:w-[22vw] font-medium place-self-end'>
                 There's room for you at CCU Festival and BUIDL.
             </div>
 
