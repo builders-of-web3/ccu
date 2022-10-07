@@ -4,7 +4,7 @@ import { heroBg, bow3FullLogoWhite } from "../assets";
 const Hero = () => {
     return (
         <div className={'h-screen w-screen bg-cover bg-no-repeat flex items-center mt-[100px] md:mt-0'} style={{ backgroundImage: `url(${heroBg})` }}>
-            <div className={'flex md:flex-row flex-col w-[90vw] md:w-[80vw] lg:w-[70vw] mx-auto md:items-end justify-between h-fit gap-16'}>
+            <div className={'flex md:flex-row flex-col w-[90vw] md:w-[80vw] mx-auto md:items-end justify-around h-fit gap-16'}>
                 <div className={'flex flex-col gap-16'}>
                     <div className={'gap-5 items-end hidden md:flex'}>
                         <img src={bow3FullLogoWhite} alt={''} />
