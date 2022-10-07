@@ -9,7 +9,7 @@ const Section9 = () => {
             </div>
 
 
-            <div className='grid grid-cols-4 gap-6 m-10'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
                 <div className='flex flex-col items-center'>
                     <div className='bg-white w-[15rem] h-[7rem] rounded-2xl'></div>
                     {/* <div className='font-semibold text-2xl m-4'>

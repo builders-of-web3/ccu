@@ -14,8 +14,8 @@ const Section5 = () => {
                 </div>
             </div>
 
-            <div className='flex justify-between space-x-[10vw] pt-10'>
-                <div className='bg-gradient-to-br from-white to-[#B9B3E6]  w-[40rem] h-[23rem]  rounded-2xl p-10'>
+            <div className='flex md:flex-row flex-col justify-between gap-10 pt-10'>
+                <div className='bg-gradient-to-br from-white to-[#B9B3E6] rounded-2xl p-10'>
                     <div className='text-black flex font-bold text-3xl justify-between'>
                         Speaker Application are now closed
                         <img className='w-7 mx-6' src={arrowblack} alt="arrowblack" />
@@ -26,7 +26,7 @@ const Section5 = () => {
                     </div>
 
                 </div>
-                <div className='bg-gradient-to-br from-white to-[#B9B3E6]  w-[40rem] h-[23rem]  rounded-2xl p-10'>
+                <div className='bg-gradient-to-br from-white to-[#B9B3E6]  rounded-2xl p-10'>
                     <div className='text-black flex font-bold text-3xl justify-between'>
                         Become a sponsor
                         <img className='w-7 mx-6' src={arrowblack} alt="arrowblack" />

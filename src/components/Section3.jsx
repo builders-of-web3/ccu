@@ -11,13 +11,12 @@ const Section3 = () => {
     const [contentNum, setContentNum] = useState(0);
 
     return (
-        <div className='text-white font-Inter flex space-x-[10vw] justify-between my-[11vh]'>
-
-            <div>
-                <div className='font-Inter text-white text-7xl font-black italic drop-shadow-lg shadow-black'>
-                    BUIDL
-                </div>
-                <div className='text-2xl font-medium mt-6 flex space-x-8'>
+        <div className='text-white font-Inter flex flex-col justify-between my-[11vh] gap-10'>
+            <div className='text-7xl font-black italic drop-shadow-lg shadow-black'>
+                BUIDL
+            </div>
+            <div className={"flex md:flex-row flex-col gap-16 justify-between"}>
+                <div className='text-2xl font-medium flex gap-6'>
                     <div className={`cursor-pointer ${contentNum === 0 ? "font-extrabold": ""}`} onClick={() => setContentNum(0)}>
                         BUIDL
                     </div>
@@ -28,10 +27,9 @@ const Section3 = () => {
                         Collaborate
                     </div>
                 </div>
-            </div>
-            <div className='text-2xl box-content w-[22vw] font-medium mt-6 pt-[9vh]'>
-                {content[contentNum]}
-
+                <div className='text-xl md:text-2xl box-content md:w-[50%] font-medium'>
+                    {content[contentNum]}
+                </div>
             </div>
 
         </div>
