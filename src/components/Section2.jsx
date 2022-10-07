@@ -43,7 +43,7 @@ const Section2 = () => {
     return (
         <div className='text-white font-Inter flex md:flex-row flex-col my-[11vh] text-left md:h-[300px] gap-16'>
 
-            <div className='text-6xl md:text-7xl font-black italic drop-shadow-lg shadow-black md:w-[50%] place-self-start'>
+            <div className='text-5xl md:text-7xl font-black italic drop-shadow-lg shadow-black md:w-[50%] place-self-start'>
                 From <span className='text-[#FFC700]'> {Object.values(newName)[0]} </span> to <span className='text-[#FFC700]'> {Object.values(newName)[1]} </span>
             </div>
             <div className='text-2xl box-content md:w-[22vw] font-medium place-self-end'>

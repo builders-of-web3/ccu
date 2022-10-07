@@ -58,7 +58,7 @@ const Section6 = () => {
             <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 m-10'>
                 {
                     sponsors.map((sponsor) => (
-                        <div className='bg-white w-[8rem] md:w-[10rem] rounded-lg'>
+                        <div className='bg-white w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] rounded-lg'>
                             <img src={sponsor} alt="sponsor" className='w-full h-full rounded-lg' />
                         </div>
                     ))

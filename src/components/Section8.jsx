@@ -37,7 +37,7 @@ const Section8 = () => {
                 {team.map((member) => (
                     <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                         <div className='flex flex-col items-center'>
-                            <div className='bg-white hover:shadow-lg hover:shadow-[#1a1a3a] bg-cover w-[8rem] md:w-[10rem] rounded-full'>
+                            <div className='bg-white hover:shadow-lg hover:shadow-[#1a1a3a] bg-cover w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] rounded-full'>
                                 <img src={member.image} alt={member.name} className='w-full h-full rounded-full' />
                             </div>
                             <div className='font-semibold text-2xl m-4 text-center'>
