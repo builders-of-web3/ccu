@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccu/static/css/main.3552cfe4.css",
-    "main.js": "/ccu/static/js/main.2a87e501.js",
+    "main.css": "/ccu/static/css/main.f80c064e.css",
+    "main.js": "/ccu/static/js/main.5256aa29.js",
     "static/media/RajdipBhattacharya.png": "/ccu/static/media/RajdipBhattacharya.ad2598a20c08dd7ab9e9.png",
     "static/media/AyanMajumdar.jpg": "/ccu/static/media/AyanMajumdar.3b21eb76105fc2fce879.jpg",
     "static/media/ManishKumarBarnwal.png": "/ccu/static/media/ManishKumarBarnwal.b5d96114013e7f8e860d.png",
@@ -37,11 +37,11 @@
     "static/media/arrow-black.svg": "/ccu/static/media/arrow-black.ce8168df30255beb06d2fe6e51260a15.svg",
     "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.c2ca1ca2f0c031a74cadb012cd9d7218.svg",
     "index.html": "/ccu/index.html",
-    "main.3552cfe4.css.map": "/ccu/static/css/main.3552cfe4.css.map",
-    "main.2a87e501.js.map": "/ccu/static/js/main.2a87e501.js.map"
+    "main.f80c064e.css.map": "/ccu/static/css/main.f80c064e.css.map",
+    "main.5256aa29.js.map": "/ccu/static/js/main.5256aa29.js.map"
   },
   "entrypoints": [
-    "static/css/main.3552cfe4.css",
-    "static/js/main.2a87e501.js"
+    "static/css/main.f80c064e.css",
+    "static/js/main.5256aa29.js"
   ]
 }
