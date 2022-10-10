@@ -20,6 +20,9 @@ import ventureCatalysts from './ventureCatalysts.png';
 import WhatsApp from './WhatsApp.jpeg';
 import wings from './wings.png';
 import yest from './yest.png';
+import visual from './visual.png';
+import smoke from './smoke.png';
+import saday from './saday.png';
 
 export {
     caldera,
@@ -44,4 +47,7 @@ export {
     WhatsApp,
     wings,
     yest,
+    visual,
+    smoke,
+    saday,
 }

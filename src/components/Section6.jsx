@@ -21,7 +21,10 @@ import {  caldera,
   ventureCatalysts,
   WhatsApp,
   wings,
-  yest,} from '../assets/sponsor'
+  yest,
+  visual,
+  smoke,
+  saday,} from '../assets/sponsor'
 
 const Section6 = () => {
 
@@ -47,6 +50,9 @@ const Section6 = () => {
       WhatsApp,
       wings,
       yest,
+      visual,
+      smoke,
+      saday,
     ]
 
     return (
