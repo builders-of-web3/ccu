@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ccu/static/css/main.f80c064e.css",
-    "main.js": "/ccu/static/js/main.5256aa29.js",
+    "main.js": "/ccu/static/js/main.07e58d31.js",
     "static/media/RajdipBhattacharya.png": "/ccu/static/media/RajdipBhattacharya.ad2598a20c08dd7ab9e9.png",
     "static/media/AyanMajumdar.jpg": "/ccu/static/media/AyanMajumdar.3b21eb76105fc2fce879.jpg",
     "static/media/ManishKumarBarnwal.png": "/ccu/static/media/ManishKumarBarnwal.b5d96114013e7f8e860d.png",
@@ -9,14 +9,13 @@
     "static/media/SamantakSaha.jpg": "/ccu/static/media/SamantakSaha.4987a67a71a6fba16b6a.jpg",
     "static/media/RakeshSamui.jpeg": "/ccu/static/media/RakeshSamui.aecc63db37507a122203.jpeg",
     "static/media/AbhranilMondal.jpg": "/ccu/static/media/AbhranilMondal.3f3741e93301421f980c.jpg",
-    "static/media/innovatorsCoffee.png": "/ccu/static/media/innovatorsCoffee.52ef9e3011f05070f3e9.png",
+    "static/media/innovatorsCoffee.png": "/ccu/static/media/innovatorsCoffee.34590fbcaa5e3b279935.png",
     "static/media/auli.png": "/ccu/static/media/auli.19b435d93773adc7ddef.png",
     "static/media/NadeemAhmad.jpeg": "/ccu/static/media/NadeemAhmad.7a3b7e3160b41dba016c.jpeg",
     "static/media/HarshitAggarwal.JPG": "/ccu/static/media/HarshitAggarwal.21c446785a11316ab69c.JPG",
     "static/media/HimanshuRai.jpeg": "/ccu/static/media/HimanshuRai.16f1a587391b902af870.jpeg",
     "static/media/Untitled.png": "/ccu/static/media/Untitled.31431df7dc01ada76dd5.png",
     "static/media/builder-of-web3-logo.svg": "/ccu/static/media/builder-of-web3-logo.1ad7ecfe42063096c10507689f6ad57d.svg",
-    "static/media/yest.png": "/ccu/static/media/yest.634db2d27b6e5dbc9cd4.png",
     "static/media/ventureCatalysts.png": "/ccu/static/media/ventureCatalysts.258316f4a5a9afb1ba86.png",
     "static/media/WhatsApp.jpeg": "/ccu/static/media/WhatsApp.5aa755f90915d9016330.jpeg",
     "static/media/AjoyDas.jpeg": "/ccu/static/media/AjoyDas.fe33d523f3bb687e117d.jpeg",
@@ -31,17 +30,18 @@
     "static/media/BOW3 black logo-01-01.png": "/ccu/static/media/BOW3 black logo-01-01.69d3f02e680497f5676b.png",
     "static/media/Folk_Logo.png": "/ccu/static/media/Folk_Logo.17d158b85830d6426b2c.png",
     "static/media/wings.png": "/ccu/static/media/wings.7e7b51eb67d8559887e2.png",
-    "static/media/velocoty1.png": "/ccu/static/media/velocoty1.9a0c8ee1d543e74f3b37.png",
+    "static/media/yest.png": "/ccu/static/media/yest.ba503ecf314540d1f4ef.png",
+    "static/media/velocoty1.png": "/ccu/static/media/velocoty1.7fd0203122a9544c34b2.png",
     "static/media/twitter-black.svg": "/ccu/static/media/twitter-black.9fe12aca2a60f1d2934b903308959b9a.svg",
     "static/media/hero-bg.svg": "/ccu/static/media/hero-bg.68589ba532337ca8fddbb33dedb77979.svg",
     "static/media/arrow-black.svg": "/ccu/static/media/arrow-black.ce8168df30255beb06d2fe6e51260a15.svg",
-    "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.c2ca1ca2f0c031a74cadb012cd9d7218.svg",
+    "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.6075a1b3d6f97269806e7d7d3a26be49.svg",
     "index.html": "/ccu/index.html",
     "main.f80c064e.css.map": "/ccu/static/css/main.f80c064e.css.map",
-    "main.5256aa29.js.map": "/ccu/static/js/main.5256aa29.js.map"
+    "main.07e58d31.js.map": "/ccu/static/js/main.07e58d31.js.map"
   },
   "entrypoints": [
     "static/css/main.f80c064e.css",
-    "static/js/main.5256aa29.js"
+    "static/js/main.07e58d31.js"
   ]
 }
