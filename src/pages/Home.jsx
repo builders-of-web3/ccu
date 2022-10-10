@@ -11,7 +11,6 @@ import {
     Section6,
     Section7,
     Section8,
-    Section9
 } from '../components'
 
 const Home = () => {
@@ -29,7 +28,6 @@ const Home = () => {
         <Section6 />
         <Section7 />
         <Section8 />
-        <Section9 />
       </div>
       <Footer />
 

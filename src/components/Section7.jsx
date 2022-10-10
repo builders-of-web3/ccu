@@ -1,5 +1,6 @@
 import React from 'react'
 import { ajoyDas, ayanMajumdar, harshitAggarwal, manishKumarBarnwal, nadeemAhmad, rakeshSamui, samantakSaha, varsha } from '../assets'
+import {AnimationOnScroll} from "react-animation-on-scroll";
 
 const Section7 = () => {
 
@@ -51,22 +52,22 @@ const Section7 = () => {
     return (
         <div className='text-white font-Inter my-[15vh]'>
 
-            <div className='font-Inter text-center text-white text-5xl md:text-6xl font-black drop-shadow-lg shadow-black'>
+            <AnimationOnScroll animateOnce animateIn={"animate__fadeInDown"} duration={0.7} className='font-Inter text-center text-white text-5xl md:text-6xl font-black drop-shadow-lg shadow-black'>
                 Core Team
-            </div>
+            </AnimationOnScroll>
 
             <div className='grid grid-cols-2 md:grid-cols-4 gap-6 mt-10'>
 
-                {team.map((member) => (
+                {team.map((member, index) => (
                     <a href={member.linkdin} target="_blank" rel="noopener noreferrer">
-                        <div className='flex flex-col items-center'>
+                        <AnimationOnScroll animateOnce animateIn={"animate__fadeInUpBig"} duration={0.7} delay={index*100+300} className='flex flex-col items-center'>
                             <div className='bg-white hover:shadow-lg hover:shadow-[#1a1a3a] bg-cover w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] rounded-full'>
                                 <img src={member.image} alt={member.name} className='w-full h-full rounded-full' />
                             </div>
                             <div className='font-semibold text-center text-2xl m-4'>
                                 {member.name}
                             </div>
-                        </div>
+                        </AnimationOnScroll>
                     </a>
 
                 ))}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { bow3FullLogoBlack, twitterBlack } from "../assets";
+import {Instagram, LinkedIn, Telegram, Twitter} from "@mui/icons-material";
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className={'flex flex-col gap-5 text-xl'}>
+                <div className={'flex flex-col gap-5 text-sm md:text-xl'}>
                     <a href={'#'}>Agenda</a>
                     <a href={'#'}>Speakers</a>
                     <a href={'#'}>Sponsors</a>
@@ -24,7 +25,7 @@ const Footer = () => {
                     <a href={'#'}>Team</a>
                 </div>
 
-                <div className={'flex flex-col gap-5 text-xl'}>
+                <div className={'flex flex-col gap-5 text-sm md:text-xl'}>
                     <a href={'#'}>Buy Tickets</a>
                     <a href={'#'}>CCU Festival</a>
                     <a href={'#'}>Project MCRA</a>
@@ -33,13 +34,24 @@ const Footer = () => {
                 </div>
 
                 <div className={'col-span-2'}>
-                    <div className={'text-xl font-semibold'}>Stay up-to-date on all things BUIDL & Builders of Web3</div>
-                    <input
-                        className={'rounded-lg shadow-inner border-black border-2 outline-none p-3 mt-5 w-full'}
-                        type={'email'}
-                        placeholder={'Enter your email'}
-                    />
-                    <button className={'p-2 text-white bg-[#210CAE] font-bold text-lg rounded-lg mt-3'}>Subscribe</button>
+                    <div className={'text-xl font-semibold'}>Join our socials</div>
+                    <div className={'flex gap-1 mt-4'}>
+                        <a href={'https://twitter.com/buidlersofweb3'} rel={"noreferrer noopener"}>
+                            <img src={'https://img.icons8.com/color/32/000000/twitter-logo.png'} alt={''} />
+                        </a>
+                        <a href={'https://www.instagram.com/buildersofweb3/'} rel={"noreferrer noopener"}>
+                            <img src={'https://img.icons8.com/color/32/000000/instagram-logo.png'} alt={''} />
+                        </a>
+                        <a href={'https://t.me/BOWeb3'} rel={"noreferrer noopener"}>
+                            <Telegram fontSize={'large'} />
+                        </a>
+                        <a href={'https://discord.gg/7HC2JtM9'} rel={"noreferrer noopener"}>
+                            <img src={'https://img.icons8.com/color/32/000000/discord-logo.png'} alt={''} />
+                        </a>
+                        <a href={'https://www.linkedin.com/company/buildersofweb3/'} rel={"noreferrer noopener"}>
+                            <img src={'https://img.icons8.com/color/32/000000/linkedin-logo.png'} alt={''} />
+                        </a>
+                    </div>
                 </div>
 
             </div>

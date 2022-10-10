@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Section3 = () => {
 
@@ -12,24 +13,30 @@ const Section3 = () => {
 
     return (
         <div className='text-white font-Inter gap-16 flex flex-col justify-between my-[11vh]'>
-            <div className='text-7xl font-black italic drop-shadow-lg shadow-black'>
+            <AnimationOnScroll animateIn={"animate__bounceInDown"} animateOnce className='text-7xl font-black italic drop-shadow-lg shadow-black'>
                 BUIDL
-            </div>
+            </AnimationOnScroll>
             <div className={"flex flex-col md:flex-row justify-between gap-10"}>
                 <div className='text-2xl font-medium flex gap-6'>
-                    <div className={`cursor-pointer ${contentNum === 0 ? "font-extrabold": ""}`} onClick={() => setContentNum(0)}>
-                        BUIDL
-                    </div>
-                    <div className={`cursor-pointer ${contentNum === 1 ? "font-extrabold": ""}`} onClick={() => setContentNum(1)}>
-                        Grow
-                    </div>
-                    <div className={`cursor-pointer ${contentNum === 2 ? "font-extrabold": ""}`} onClick={() => setContentNum(2)}>
-                        Collaborate
-                    </div>
+                    <AnimationOnScroll animateIn={"animate__fadeInUp"} animateOnce delay={700}>
+                        <div className={`cursor-pointer ${contentNum === 0 ? "font-extrabold": ""}`} onClick={() => setContentNum(0)}>
+                            BUIDL
+                        </div>
+                    </AnimationOnScroll>
+                    <AnimationOnScroll animateIn={"animate__fadeInUp"} delay={900} animateOnce>
+                        <div className={`cursor-pointer ${contentNum === 1 ? "font-extrabold": ""}`} onClick={() => setContentNum(1)}>
+                            Grow
+                        </div>
+                    </AnimationOnScroll>
+                    <AnimationOnScroll animateIn={"animate__fadeInUp"} delay={1100} animateOnce>
+                        <div className={`cursor-pointer ${contentNum === 2 ? "font-extrabold": ""}`} onClick={() => setContentNum(2)}>
+                            Collaborate
+                        </div>
+                    </AnimationOnScroll>
                 </div>
-                <div className='text-2xl box-content md:w-[50%] font-medium'>
+                <AnimationOnScroll animateIn={"animate__fadeInRightBig"} delay={700} animateOnce className='text-2xl box-content md:w-[50%] font-medium'>
                     {content[contentNum]}
-                </div>
+                </AnimationOnScroll>
             </div>
 
         </div>
