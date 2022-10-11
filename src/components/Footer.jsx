@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
 
                 <div className={'flex flex-col gap-5 text-sm md:text-xl'}>
-                    <a href={'#'}>Agenda</a>
+                    <a href={'#Section1'}>Agenda</a>
                     <a href={'#'}>Speakers</a>
                     <a href={'#'}>Sponsors</a>
                     <a href={'#'}>Community</a>
@@ -26,11 +26,11 @@ const Footer = () => {
                 </div>
 
                 <div className={'flex flex-col gap-5 text-sm md:text-xl'}>
-                    <a href={'#'}>Buy Tickets</a>
-                    <a href={'#'}>CCU Festival</a>
-                    <a href={'#'}>Project MCRA</a>
-                    <a href={'#'}>OffBeat CCU</a>
-                    <a href={'#'}>Contact Us</a>
+                    <a href={'https://bit.ly/bow3-ccu-fest'}>Buy Tickets</a>
+                    <a href={'http://mcra.in/ccu'}>CCU Festival</a>
+                    <a href={'https://www.makecalcuttarelevantagain.com/'}>Project MCRA</a>
+                    <a href={'https://www.offbeatccu.com/'}>OffBeat CCU</a>
+                    <a href={'mailto:buidlersofweb3@gamil.com'}>Contact Us</a>
                 </div>
 
                 <div className={'col-span-2'}>
