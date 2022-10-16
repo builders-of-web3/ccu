@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ccu/static/css/main.f80c064e.css",
-    "main.js": "/ccu/static/js/main.07e58d31.js",
+    "main.js": "/ccu/static/js/main.85993dbd.js",
     "static/media/RajdipBhattacharya.png": "/ccu/static/media/RajdipBhattacharya.ad2598a20c08dd7ab9e9.png",
     "static/media/AyanMajumdar.jpg": "/ccu/static/media/AyanMajumdar.3b21eb76105fc2fce879.jpg",
     "static/media/ManishKumarBarnwal.png": "/ccu/static/media/ManishKumarBarnwal.b5d96114013e7f8e860d.png",
@@ -9,7 +9,7 @@
     "static/media/SamantakSaha.jpg": "/ccu/static/media/SamantakSaha.4987a67a71a6fba16b6a.jpg",
     "static/media/RakeshSamui.jpeg": "/ccu/static/media/RakeshSamui.aecc63db37507a122203.jpeg",
     "static/media/AbhranilMondal.jpg": "/ccu/static/media/AbhranilMondal.3f3741e93301421f980c.jpg",
-    "static/media/innovatorsCoffee.png": "/ccu/static/media/innovatorsCoffee.34590fbcaa5e3b279935.png",
+    "static/media/innovatorsCoffee.png": "/ccu/static/media/innovatorsCoffee.d0404ad0ec48c52955c2.png",
     "static/media/auli.png": "/ccu/static/media/auli.19b435d93773adc7ddef.png",
     "static/media/NadeemAhmad.jpeg": "/ccu/static/media/NadeemAhmad.7a3b7e3160b41dba016c.jpeg",
     "static/media/HarshitAggarwal.JPG": "/ccu/static/media/HarshitAggarwal.21c446785a11316ab69c.JPG",
@@ -18,7 +18,7 @@
     "static/media/builder-of-web3-logo.svg": "/ccu/static/media/builder-of-web3-logo.1ad7ecfe42063096c10507689f6ad57d.svg",
     "static/media/ventureCatalysts.png": "/ccu/static/media/ventureCatalysts.258316f4a5a9afb1ba86.png",
     "static/media/WhatsApp.jpeg": "/ccu/static/media/WhatsApp.5aa755f90915d9016330.jpeg",
-    "static/media/AjoyDas.jpeg": "/ccu/static/media/AjoyDas.fe33d523f3bb687e117d.jpeg",
+    "static/media/AjoyDas.jpeg": "/ccu/static/media/AjoyDas.e3caac53f0b6faba8f6b.jpeg",
     "static/media/caldera.png": "/ccu/static/media/caldera.947d318eb98be6ff10aa.png",
     "static/media/BOW3-full-logo-black.svg": "/ccu/static/media/BOW3-full-logo-black.98863958c8704d5840e0c421b87162fe.svg",
     "static/media/BOW3-full-logo-white.svg": "/ccu/static/media/BOW3-full-logo-white.92a9586b4f53ef56209736b1b44213c0.svg",
@@ -26,22 +26,21 @@
     "static/media/bitCulprit.png": "/ccu/static/media/bitCulprit.920445af27d7fbd5ce2a.png",
     "static/media/Taj.png": "/ccu/static/media/Taj.2e3b865776240d7fc24d.png",
     "static/media/Mastermentors-logo-Fina-blackl-300x228.png": "/ccu/static/media/Mastermentors-logo-Fina-blackl-300x228.3e047b009923c75bcd12.png",
-    "static/media/Varsha.jpg": "/ccu/static/media/Varsha.193e4a51a5e801a82788.jpg",
+    "static/media/Varsha.jpg": "/ccu/static/media/Varsha.8b33aaacad672b505411.jpg",
     "static/media/BOW3 black logo-01-01.png": "/ccu/static/media/BOW3 black logo-01-01.69d3f02e680497f5676b.png",
     "static/media/Folk_Logo.png": "/ccu/static/media/Folk_Logo.17d158b85830d6426b2c.png",
     "static/media/wings.png": "/ccu/static/media/wings.7e7b51eb67d8559887e2.png",
-    "static/media/yest.png": "/ccu/static/media/yest.ba503ecf314540d1f4ef.png",
     "static/media/velocoty1.png": "/ccu/static/media/velocoty1.7fd0203122a9544c34b2.png",
     "static/media/twitter-black.svg": "/ccu/static/media/twitter-black.9fe12aca2a60f1d2934b903308959b9a.svg",
     "static/media/hero-bg.svg": "/ccu/static/media/hero-bg.68589ba532337ca8fddbb33dedb77979.svg",
     "static/media/arrow-black.svg": "/ccu/static/media/arrow-black.ce8168df30255beb06d2fe6e51260a15.svg",
-    "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.6075a1b3d6f97269806e7d7d3a26be49.svg",
+    "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.97d41d7770ce0e3ce711c9ee4fbb7c21.svg",
     "index.html": "/ccu/index.html",
     "main.f80c064e.css.map": "/ccu/static/css/main.f80c064e.css.map",
-    "main.07e58d31.js.map": "/ccu/static/js/main.07e58d31.js.map"
+    "main.85993dbd.js.map": "/ccu/static/js/main.85993dbd.js.map"
   },
   "entrypoints": [
     "static/css/main.f80c064e.css",
-    "static/js/main.07e58d31.js"
+    "static/js/main.85993dbd.js"
   ]
 }
