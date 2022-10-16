@@ -4,7 +4,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Section4 = () => {
     return (
-        <div className='text-white font-Inter flex my-[15vh] place-self-start'>
+        <div id={"community"} className='text-white font-Inter flex my-[15vh] place-self-start'>
             <a href="https://linktr.ee/buildersofweb3" target="_blank" rel="noopener noreferrer"
                className='font-Inter text-white text-5xl md:text-9xl font-black italic drop-shadow-lg shadow-black'>
                 <AnimationOnScroll animateOnce animateIn={"animate__lightSpeedInLeft"}>

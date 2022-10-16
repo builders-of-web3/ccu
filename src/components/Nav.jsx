@@ -3,14 +3,15 @@ import { BuilderOfWeb3Logo } from '../assets';
 import {MenuRounded} from "@mui/icons-material";
 // import logo192 from './public/logo192.png';
 //import Button from './Button';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Nav = () => {
   let Links = [
-    { name: "Agenda", link: "/" },
-    { name: "Speakers", link: "/" },
-    { name: "Sponsors", link: "/" },
-    { name: "Community", link: "/" },
-    { name: "Team", link: "/" },
+    { name: "Agenda", link: "#agenda" },
+    { name: "Speakers", link: "#speakers" },
+    { name: "Sponsors", link: "#sponsors" },
+    { name: "Community", link: "#community" },
+    { name: "Team", link: "#team" },
   ];
   let [open, setOpen] = useState(false);
   return (
@@ -28,7 +29,7 @@ const Nav = () => {
             <>
               {
                 Links.map((link) => (
-                      <a href={link.link}>{link.name}</a>
+                      <a href={link.link} >{link.name}</a>
                 ))
               }
             </>

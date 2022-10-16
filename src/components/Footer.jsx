@@ -3,6 +3,14 @@ import { bow3FullLogoBlack, twitterBlack } from "../assets";
 import {Instagram, LinkedIn, Telegram, Twitter} from "@mui/icons-material";
 
 const Footer = () => {
+    const links = [
+        { name: "Agenda", link: "#agenda" },
+        { name: "Speakers", link: "#speakers" },
+        { name: "Sponsors", link: "#sponsors" },
+        { name: "Community", link: "#community" },
+        { name: "Team", link: "#team" },
+    ];
+
     return (
         <div className={'w-screen py-16 bg-white text-black'}>
             <div className={'w-[80vw] mx-auto grid md:grid-cols-5 gap-10 md:gap-20'}>
@@ -18,11 +26,11 @@ const Footer = () => {
                 </div>
 
                 <div className={'flex flex-col gap-5 text-sm md:text-xl'}>
-                    <a href={'#Section1'}>Agenda</a>
-                    <a href={'#'}>Speakers</a>
-                    <a href={'#'}>Sponsors</a>
-                    <a href={'#'}>Community</a>
-                    <a href={'#'}>Team</a>
+                    {
+                        links.map((link) => (
+                            <a href={link.link} >{link.name}</a>
+                        ))
+                    }
                 </div>
 
                 <div className={'flex flex-col gap-5 text-sm md:text-xl'}>

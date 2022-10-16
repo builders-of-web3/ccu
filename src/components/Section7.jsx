@@ -50,7 +50,7 @@ const Section7 = () => {
     ]
 
     return (
-        <div className='text-white font-Inter my-[15vh]'>
+        <div id={"team"} className='text-white font-Inter my-[15vh]'>
 
             <AnimationOnScroll animateOnce animateIn={"animate__fadeInDown"} duration={0.7} className='font-Inter text-center text-white text-5xl md:text-6xl font-black drop-shadow-lg shadow-black'>
                 Core Team
