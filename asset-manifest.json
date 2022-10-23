@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ccu/static/css/main.f80c064e.css",
-    "main.js": "/ccu/static/js/main.5542dd8b.js",
+    "main.js": "/ccu/static/js/main.7cf890b6.js",
     "static/media/Jyotirmoy.jpg": "/ccu/static/media/Jyotirmoy.25acb216f097c6c7dae7.jpg",
     "static/media/RajdipBhattacharya.png": "/ccu/static/media/RajdipBhattacharya.ad2598a20c08dd7ab9e9.png",
     "static/media/AyanMajumdar.jpg": "/ccu/static/media/AyanMajumdar.3b21eb76105fc2fce879.jpg",
@@ -20,6 +20,7 @@
     "static/media/ventureCatalysts.png": "/ccu/static/media/ventureCatalysts.258316f4a5a9afb1ba86.png",
     "static/media/WhatsApp.jpeg": "/ccu/static/media/WhatsApp.5aa755f90915d9016330.jpeg",
     "static/media/AjoyDas.jpeg": "/ccu/static/media/AjoyDas.e3caac53f0b6faba8f6b.jpeg",
+    "static/media/Swatilakha.jpg": "/ccu/static/media/Swatilakha.8b4100f113adb4fc7773.jpg",
     "static/media/caldera.png": "/ccu/static/media/caldera.947d318eb98be6ff10aa.png",
     "static/media/BOW3-full-logo-black.svg": "/ccu/static/media/BOW3-full-logo-black.98863958c8704d5840e0c421b87162fe.svg",
     "static/media/BOW3-full-logo-white.svg": "/ccu/static/media/BOW3-full-logo-white.92a9586b4f53ef56209736b1b44213c0.svg",
@@ -27,6 +28,7 @@
     "static/media/bitCulprit.png": "/ccu/static/media/bitCulprit.920445af27d7fbd5ce2a.png",
     "static/media/Taj.png": "/ccu/static/media/Taj.2e3b865776240d7fc24d.png",
     "static/media/Mastermentors-logo-Fina-blackl-300x228.png": "/ccu/static/media/Mastermentors-logo-Fina-blackl-300x228.3e047b009923c75bcd12.png",
+    "static/media/Sumita.jpg": "/ccu/static/media/Sumita.7752f4108cb69d44b284.jpg",
     "static/media/Varsha.jpg": "/ccu/static/media/Varsha.8b33aaacad672b505411.jpg",
     "static/media/BOW3 black logo-01-01.png": "/ccu/static/media/BOW3 black logo-01-01.69d3f02e680497f5676b.png",
     "static/media/Folk_Logo.png": "/ccu/static/media/Folk_Logo.17d158b85830d6426b2c.png",
@@ -38,10 +40,10 @@
     "static/media/arrow-white.svg": "/ccu/static/media/arrow-white.97d41d7770ce0e3ce711c9ee4fbb7c21.svg",
     "index.html": "/ccu/index.html",
     "main.f80c064e.css.map": "/ccu/static/css/main.f80c064e.css.map",
-    "main.5542dd8b.js.map": "/ccu/static/js/main.5542dd8b.js.map"
+    "main.7cf890b6.js.map": "/ccu/static/js/main.7cf890b6.js.map"
   },
   "entrypoints": [
     "static/css/main.f80c064e.css",
-    "static/js/main.5542dd8b.js"
+    "static/js/main.7cf890b6.js"
   ]
 }
