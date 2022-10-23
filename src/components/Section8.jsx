@@ -1,5 +1,5 @@
 import React from 'react'
-import { abhranilMondal, himanshuRai, rajdipBhattacharya, sawanBhattacahrya } from '../assets'
+import { abhranilMondal, himanshuRai, rajdipBhattacharya, sawanBhattacahrya, Jyotirmoy } from '../assets'
 import {AnimationOnScroll} from "react-animation-on-scroll";
 
 const Section8 = () => {
@@ -24,7 +24,12 @@ const Section8 = () => {
             name: "Himanshu Rai",
             image: himanshuRai,
             linkedin: 'https://www.linkedin.com/in/himanshu-rai-5599a11b8',
-        }
+        },
+        {
+            name: "Jyotirmoy Roy",
+            image: Jyotirmoy,
+            linkedin: 'https://www.linkedin.com/in/jyotirmoyroy69/',
+        },
     ]
 
     return (

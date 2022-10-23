@@ -21,6 +21,7 @@ import abhranilMondal from "./AbhranilMondal.jpg";
 import rajdipBhattacharya from "./RajdipBhattacharya.png";
 import sawanBhattacahrya from "./SawanBhattacahrya.png";
 import himanshuRai from "./HimanshuRai.jpeg";
+import Jyotirmoy from "./Jyotirmoy.jpg";
 
 export {
   arrowWhite,
@@ -42,4 +43,5 @@ export {
   rajdipBhattacharya,
   sawanBhattacahrya,
   himanshuRai,
+  Jyotirmoy,
 };
