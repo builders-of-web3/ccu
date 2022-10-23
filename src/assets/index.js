@@ -22,6 +22,8 @@ import rajdipBhattacharya from "./RajdipBhattacharya.png";
 import sawanBhattacahrya from "./SawanBhattacahrya.png";
 import himanshuRai from "./HimanshuRai.jpeg";
 import Jyotirmoy from "./Jyotirmoy.jpg";
+import Sumita from "./Sumita.jpg";
+import Swatilakha from "./Swatilakha.jpg";
 
 export {
   arrowWhite,
@@ -44,4 +46,6 @@ export {
   sawanBhattacahrya,
   himanshuRai,
   Jyotirmoy,
+  Swatilakha,
+  Sumita,
 };
