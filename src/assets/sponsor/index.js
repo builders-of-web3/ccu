@@ -23,6 +23,14 @@ import yest from './yest.png';
 import visual from './visual.png';
 import smoke from './smoke.png';
 import saday from './saday.png';
+import a from './16.png';
+import b from './17.png';
+import c from './18.png';
+import d from './3.png';
+import SOLGAMES from './SOLGAMES.png';
+import CFJ from './CFJ.png';
+
+
 
 export {
     caldera,
@@ -50,4 +58,10 @@ export {
     visual,
     smoke,
     saday,
+    a,
+    b,
+    c,
+    d,
+    SOLGAMES,
+    CFJ
 }

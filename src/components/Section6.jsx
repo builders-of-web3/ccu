@@ -24,11 +24,23 @@ import {  caldera,
   yest,
   visual,
   smoke,
-  saday,} from '../assets/sponsor'
+  saday,
+  a,
+  b,
+  c,
+  d,
+  SOLGAMES,
+  CFJ,} from '../assets/sponsor'
 
 const Section6 = () => {
 
   const sponsors = [
+    a,
+    b,
+    c,
+    d,
+    SOLGAMES,
+    CFJ,
     caldera,
     huladek,
     bitCulprit,
